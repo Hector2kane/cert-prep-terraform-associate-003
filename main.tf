@@ -1,3 +1,3 @@
-resource "aws_instance" "Idap-ubuntu" {
+resource "aws_instance" "test_server" {
     #instance configuration
 }
