@@ -4,8 +4,8 @@ terraform {
   backend "s3" {
     bucket         = "terraform-demo-s3-bucket111"
     key            = "terraform-state-dir/terraform.tfstate"
-    region         = "us-east-1"
-    profile        = "Helen"
+    region         = "us-west-2"
+    profile        = "default"
     dynamodb_table = "dynamo-table1"
   }
 }
